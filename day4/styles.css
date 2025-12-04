@@ -1,0 +1,65 @@
+main{
+color: rgb(14, 3, 98);
+background-color: rgb(171, 137, 202);
+height: auto;
+width:100%;
+margin: auto;
+padding: 20px;
+
+display: flex;
+border-radius: 10px;
+animation-name: mainanimation;
+animation-duration: 5s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+gap: 20px;
+}
+
+@media(max-width:640px){
+    main{
+        display:block;
+    }
+}
+
+.div{
+    background-color: rgb(160, 221, 166);
+height: auto;
+width:100%;
+margin: 10px;
+padding: 20px;
+
+display: flex;
+border-radius: 10px;
+
+}
+.seconddiv{
+    background-color: rgb(209, 139, 139);
+height: auto;
+width:100%;
+margin: 10px;
+padding: 20px;
+
+display: flex;
+border-radius: 10px;
+
+}
+
+@keyframes mainanimation {
+   0%{background-color:red;}
+   25%{background-color: yellow;}
+   50%{background-color: rgb(30, 4, 78);}
+   75%{background-color: rgb(2, 58, 26);}
+  100%{background-color: bisque;}
+
+}
+
+.firstdiv{
+background-color: rgb(160, 234, 239);
+height: auto;
+width:100%;
+margin: 10px;
+padding: 20px;
+
+display: flex;
+border-radius: 10px;
+}
